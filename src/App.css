@@ -29,6 +29,28 @@
   margin: 10px 5px;
 }
 
+.card{
+  width: 350px;
+  background-color: brown;
+  color: white;
+  padding: 8px;
+  margin: 10px 35px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.action-bar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.icon{
+  cursor: pointer;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
